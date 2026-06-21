@@ -3950,6 +3950,8 @@ static inline bool IsWindowContentHoverable(ImGuiWindow* window, ImGuiHoveredFla
                 if (want_inhibit)
                     if (!ImGui::IsWindowWithinBeginStackOf(window->RootWindow, focused_root_window))
                         return false;
+
+
             }
 
     // Filter by viewport
