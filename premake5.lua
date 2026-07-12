@@ -7,6 +7,8 @@ project "ImGui"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	includedirs { "." }
+	
 	files
 	{
 		"imconfig.h",
